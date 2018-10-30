@@ -1,0 +1,30 @@
+footer{
+    width: 100%;
+    border-top:1px solid #999;
+    padding:10px 0 5px 0;
+    display:flex;
+    justify-content:space-around;
+    z-index:1000;
+    background: #fff;
+}
+footer div{
+    text-align:center;
+    color:#000;
+}
+footer div:hover p{
+    font-weight: bold;
+    font-size:13px;
+}
+footer div:hover i{
+    font-weight: bold;
+    font-size:21px;
+}
+footer .iconfont{
+    font-size:20px;
+}
+p{
+    font-size:12px;
+}
+.active{
+    background: #442818;
+}

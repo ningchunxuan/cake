@@ -1,0 +1,199 @@
+.buycar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f8f8f8;
+}
+.top{
+    text-align:center;
+    height: 48px;
+    line-height: 48px;
+
+}
+.top p{
+    font-size:16px;
+}
+.top .identification{
+    margin: 0 60px;
+}
+
+.main{
+    flex:1;
+    overflow: auto;
+}
+.main .plases{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color:#442818;
+
+}
+.main .top-tip{
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size:12px;
+}
+
+.add-goods .cart-object-goods-item{
+        background: #fff;
+        margin-bottom: 15px;
+        padding: 0 20px;
+        padding-bottom: 15px;
+        position: relative;
+        overflow:hidden;
+}
+.add-goods .cart-pro-box{
+    height: 120px;
+}
+.add-goods .cart-pro-box img{
+    width: 109px;
+    height: 120px;
+    float:left;
+
+}
+.add-goods .cart-pro-title{
+    display:inline-block;
+    width: 140px;
+    padding:20px 0 0 20px;
+    font-size:12px;
+    color:#999;
+}
+
+.add-goods .cart-pro-title a{
+    color:#442818;
+}
+.cart-pro-number{
+    position:absolute;
+    right:20px;
+    bottom:40px;
+}
+.cart-pro-number button{
+    font-size:20px;
+    width: 20px;
+    background: #f0f0f0;
+}
+.cart-pro-number .quantity{
+    background: #f7f7f7;
+    padding:2px 8px;
+}
+.add-goods .delete{
+    position:absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 12px;
+    color: #666;
+
+}
+.ps{
+    padding-top: 15px;
+}
+.ps img{
+    width: 40px;
+    height: 40px;
+}
+.laid-count{
+    font-size:12px;
+    color:#442818;
+    padding-left:10px;
+}
+.birthday-brand{
+    font-size:12px;
+    color:#999;
+    padding-left:30px;
+
+}
+.birthday-card{
+    background: #482d1e;
+    color:#fff;
+    padding:2px 5px;
+    font-size:12px;
+
+}
+.with-goods{
+    width: 100%;
+    
+}
+
+.with-goods .adjuncts-list{
+    width: 42%;
+    background: #fff;
+    margin: 0 0 1.2% 1.2%;
+    float: left;
+    position: relative;
+    padding: 0 0 18px 20px;
+
+}
+
+.with-goods .mountings{
+    display:inline-block;
+    width: 10px;
+    height: 30px;
+    color: #d9b27f;
+    font-size:12px;
+    padding:5px;
+    border:1px solid #d9b27f;
+}
+
+.with-goods .adjuncts-list .goods-img{
+    width: 110px;
+    height: 130px;
+}
+.with-goods .adjuncts-list .price{
+    color:#999;
+}
+.with-goods .adjuncts-list .list-cart{
+    width: 18px;
+    height: 18px;
+    position:absolute;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.footer{
+    width: 100%;
+    height: 44px;
+    background: #fff;
+    border-top:1px solid #ccc;
+}
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul .total div{
+    float:left;
+}
+
+.footer ul .total div i{
+    font-weight: bold;
+}
+.footer ul .total div .merchandise{
+    font-size:12px;
+    color:#666;
+    margin-left: 25px;
+}
+.footer ul .delete{
+    height: 44px;
+    line-height: 44px;
+}
+.footer ul .iconfont{
+    margin-left: 20px;
+    color:#442818;
+} 
+.footer ul .clearing{
+    display: block;
+    height: 44px;
+    width: 96px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    background: #442818;
+    margin-left: 10px;
+
+}
