@@ -27,7 +27,7 @@
                     <li >
                         <router-link :to="{name: 'temperature'}">常温蛋糕</router-link>
                     </li>
-                    <li><a>设计师礼品</a></li>
+                    <!-- <li><a>设计师礼品</a></li> -->
                 </ul>
             </div>
         </div>
